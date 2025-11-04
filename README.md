@@ -1,1 +1,0 @@
-"# ryparvaclav-cmyk.github.io" 
