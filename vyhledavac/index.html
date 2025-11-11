@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Čistá Magie</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+</head>
+<body>
+   <h1><strong>Vaškův Magický Vyhledávač</strong></h1>
+   <p></p>
+ <form action="https://www.google.com/search">
+      <input type="text" name="q" aria-label="Search query">
+      <input type="submit" value="Vyhledat">
+    </form>
+<p></p>
+    <form action="https://www.google.com/search">
+      <input type="hidden" name="tbm" value="isch">
+      <input type="text" name="q" aria-label="Image search query">
+      <input type="submit" value="Vyhledat obrázky">
+    </form>
+    <form action="https://www.google.com/search" id="advanced-search">
+      <div class="advanced-container">
+        <label for="all-words">Všechna tato slova:</label>
+        <input type="text" id="all-words" name="as_q" placeholder="př. trojbarevný krysí teriér">
+        <label for="exact-phrase">Přesné tohle slovo nebo sousloví:</label>
+        <input type="text" id="exact-phrase" name="as_epq" placeholder="př. krysí teriér">
+        <label for="any-words">Kterákoliv z těchto slov:</label>
+        <input type="text" id="any-words" name="as_oq" placeholder="X nebo Y">
+        <label for="exclude-words">Žádná z těchto slov:</label>
+        <input type="text" id="exclude-words" name="as_eq" placeholder="cokoliv kromě X">
+        <input type="submit" value="Pokročilé vyhledávání">
+      </div>
+    </form>
+</body>
+</html>
